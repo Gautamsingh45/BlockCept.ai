@@ -1,0 +1,31 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.logo{
+  background-image: linear-gradient(rgb(145, 184, 87) , rgb(65, 173, 65));
+}
+.logo img{
+  
+  font-size: 50px;
+  
+}
+@media screen and (max-width: 480px) {
+    
+  .logo img{
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    
+  }
+}
+@media screen and (max-width: 370px) {
+  
+  .logo img{
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    
+  }
+}
+
